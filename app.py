@@ -384,8 +384,7 @@ with tab_survival:
             - **Custom Scratch Model**: Ridge Logistic Regression (`lr=0.01`, `epochs=1000`, `lmbd=0.1`)
             - **Benchmark Model**: Scikit-Learn Logistic Regression (`saga` solver, `C=0.5`)
             """)
-
-            predict_button = st.button("🔮 PREDICT MY FROZEN DESTINY", use_container_width=True)
+            st.caption("⚡ *Predictions update dynamically in real time as you modify any passenger detail.*")
 
     # Perform Prediction
     # Scale inputs for classification [pclass, sex, age, fare]
